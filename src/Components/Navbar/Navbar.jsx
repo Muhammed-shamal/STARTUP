@@ -20,16 +20,18 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+    <div className='bg-light flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-dark'>
       {/* Logo */}
-      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
+      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>???.</h1>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'
+            // className='p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'
+            // font family Inter, sans-serif;
+            className='p-4 rounded-xl m-2 cursor-pointer duration-300 font-sans md:font-serif hover:text-[#4d68ee]'
           >
             {item.text}
           </li>
