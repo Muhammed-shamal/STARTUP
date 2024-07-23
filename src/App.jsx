@@ -1,9 +1,12 @@
+import React from 'react'
+import { Routes } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <React.Fragment>
+      <Navbar />
+    </React.Fragment>
   )
 }
 
